@@ -2,6 +2,7 @@
 def password_try()
   correct_password = File.read("password.txt")
   value = false
+  # kunna avsluta program
     while value == false
         puts "Enter password please: "
         #validering
